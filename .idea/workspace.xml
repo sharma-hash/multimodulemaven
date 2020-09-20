@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="400526fc-d24d-4c89-bb5d-b90b8f473b5d" name="Default Changelist" comment="" />
+    <list default="true" id="400526fc-d24d-4c89-bb5d-b90b8f473b5d" name="Default Changelist" comment="Multi-Module-Maven-Example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,6 +28,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1hl0o649xIBY2ujp6JL28CiScd9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,29 +82,45 @@
       <option name="presentableId" value="Default" />
       <updated>1600570543693</updated>
     </task>
+    <task id="LOCAL-00001" summary="Multi-Module-Maven-Example">
+      <created>1600574738475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600574738475</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Multi-Module-Maven-Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-Module-Maven-Example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1600572001188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1600572001188" />
-    <state width="1367" height="228" key="GridCell.Tab.0.bottom" timestamp="1600574178438">
+    <state width="1367" height="264" key="GridCell.Tab.0.bottom" timestamp="1600574526116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="228" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600574178438" />
-    <state width="1367" height="228" key="GridCell.Tab.0.center" timestamp="1600574178438">
+    <state width="1367" height="264" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600574526116" />
+    <state width="1367" height="264" key="GridCell.Tab.0.center" timestamp="1600574526115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="228" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600574178438" />
-    <state width="1367" height="228" key="GridCell.Tab.0.left" timestamp="1600574178438">
+    <state width="1367" height="264" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600574526115" />
+    <state width="1367" height="264" key="GridCell.Tab.0.left" timestamp="1600574526115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="228" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600574178438" />
-    <state width="1367" height="228" key="GridCell.Tab.0.right" timestamp="1600574178438">
+    <state width="1367" height="264" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600574526115" />
+    <state width="1367" height="264" key="GridCell.Tab.0.right" timestamp="1600574526115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="228" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600574178438" />
+    <state width="1367" height="264" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600574526115" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600574758708">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600574758708" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1600571836342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
