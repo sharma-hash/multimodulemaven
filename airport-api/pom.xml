@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.codesharma</groupId>
+		<artifactId>sharma-airport-management-master</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<!--<groupId>com.codesharma</groupId>-->
+	<artifactId>airport-api</artifactId>
+	<!--<version>0.0.1-SNAPSHOT</version>-->
+	<version>${project.parent.version}</version>
+	<name>airport-api</name>
+	<description>Demo project for Spring Boot</description>
+
+	<properties>
+		<java.version>14</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!--You can see that we didn't defined version here, Version is already defined in parent pom, now we can be sure
+			that across entire project we are using the same version of artifact airport-core-->
+		<dependency>
+			<groupId>com.codesharma</groupId>
+			<artifactId>airport-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
